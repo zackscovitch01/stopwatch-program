@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Default Starter</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla&family=Spectral&display=swap");
+    </style>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <h1 id="myH1">Stopwatch</h1>
+    <div class="container">
+      <div id="display">00:00:00:00</div>
+
+      <div id="controls">
+        <button class="btn" id="startBtn" onclick="start()">start</button>
+        <button class="btn" id="stopBtn" onclick="stop()">stop</button>
+        <button class="btn" id="resetBtn" onclick="reset()">reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
